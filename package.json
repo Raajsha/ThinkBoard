@@ -1,0 +1,25 @@
+{
+  "name": "backendnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontendthinkboard && npm run build --prefix frontendthinkboard",
+    "start" : "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raajsha/ThinkBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Raajsha/ThinkBoard/issues"
+  },
+  "homepage": "https://github.com/Raajsha/ThinkBoard#readme",
+  "dependencies": {
+    "backend": "^0.0.0"
+  }
+}
